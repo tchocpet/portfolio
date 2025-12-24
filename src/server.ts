@@ -6,11 +6,55 @@ import {
 } from '@angular/ssr/node';
 import express from 'express';
 import { join } from 'node:path';
+import nodemailer from 'nodemailer';
+import 'dotenv/config';
 
 const browserDistFolder = join(import.meta.dirname, '../browser');
 
 const app = express();
 const angularApp = new AngularNodeAppEngine();
+
+// parse JSON bodies for API endpoints
+app.use(express.json());
+
+// Simple contact form API endpoint — sends email using SMTP configured via environment variables.
+app.post('/api/contact', async (req, res) => {
+  try {
+    const { name, email, message } = req.body || {};
+    if (!name || !email || !message) {
+      return res.status(400).json({ error: 'Missing required fields' });
+    }
+
+    const transporter = nodemailer.createTransport({
+      host: process.env['SMTP_HOST'],
+      port: Number(process.env['SMTP_PORT']) || 587,
+      secure: process.env['SMTP_SECURE'] === 'true',
+      auth: process.env['SMTP_USER'] && process.env['SMTP_PASS'] ? {
+        user: process.env['SMTP_USER'],
+        pass: process.env['SMTP_PASS'],
+      } : undefined,
+    });
+
+    const toEmail = process.env['TO_EMAIL'] || process.env['SMTP_USER'];
+    const fromEmail = process.env['SMTP_FROM'] || process.env['SMTP_USER'] || 'no-reply@example.com';
+
+    const mailText = `New contact form submission\n\nName: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
+
+    const info = await transporter.sendMail({
+      from: fromEmail,
+      to: toEmail,
+      subject: `New contact from ${name}`,
+      text: mailText,
+      html: `<p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Message:</strong><br/>${message.replace(/\n/g, '<br/>')}</p>`,
+    });
+
+    console.log('Contact form email sent:', info && (info as any).messageId);
+    return res.json({ success: true });
+  } catch (err) {
+    console.error('Failed to send contact email', err);
+    return res.status(500).json({ error: 'Failed to send email' });
+  }
+});
 
 /**
  * Example Express Rest API endpoints can be defined here.

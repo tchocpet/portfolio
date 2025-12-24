@@ -1,0 +1,15 @@
+/* Smooth scroll behavior for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section spacing */
+.section {
+  min-height: auto;
+  // padding: 2rem 0;
+  scroll-margin-top: 80px; /* Offset for fixed header */
+}
+
+main {
+  width: 100%;
+}
