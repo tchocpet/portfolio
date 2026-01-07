@@ -13,13 +13,13 @@
 }
 .hero-text h2 {
   font-size: 2.5rem;
-  color: #02F4BF;
-  line-height:2rem;
+  color: #02f4bf;
+  line-height: 2rem;
   margin: 10px 0;
 }
 .hero-text h1 {
   font-size: 3.5rem;
-  color: #02F4BF;
+  color: #02f4bf;
   line-height: 3rem;
   margin: 10px 0;
 }
@@ -44,16 +44,16 @@
   transform: rotate(-90deg) translateY(-50%);
   transform-origin: left center;
   background: transparent;
-  border: 1px solid #02F4BF;
-  color: #E15544;
+  border: 1px solid #02f4bf;
+  color: #e15544;
   padding: 8px 14px;
   font-weight: 700;
   letter-spacing: 0.08em;
   cursor: pointer;
 }
 
-.contact-vertical:hover{
-  color: #02F4BF;
+.contact-vertical:hover {
+  color: #02f4bf;
 }
 
 /* Down arrow */
@@ -66,42 +66,18 @@
   background: transparent;
   border: 2px solid transparent;
   cursor: pointer;
-  color: #E15544;
+  color: #e15544;
   padding: 5px;
   height: 65px;
 }
 
-.down-arrow:hover{
-    color: #02F4BF;
-    border-color: #02F4BF;
+.down-arrow:hover {
+  color: #02f4bf;
+  border-color: #02f4bf;
 }
 
 /* Responsive adjustments */
 @media (max-width: 900px) {
-  .hero-inner {
-    flex-direction: column-reverse;
-    gap: 1.2rem;
-  }
-  .hero-image img {
-    max-width: 240px;
-  }
-  .hero-text h1 {
-    font-size: 2.4rem;
-  }
-  .contact-vertical {
-    left: 8px;
-    top: 20%;
-    transform: rotate(-90deg) translateY(-50%);
-  }
-  .hero {
-    padding: 1.6rem 0.8rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero {
-    min-height: 60vh;
-  }
   .hero-inner {
     flex-direction: column-reverse;
     gap: 1.5rem;
@@ -114,6 +90,34 @@
   }
   .hero-image img {
     max-width: 200px;
+  }
+  .hero {
+    min-height: 60vh;
+  }
+  .contact-vertical {
+    display: none;
+  }
+  .down-arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-inner {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+  .hero-text h2 {
+    font-size: 0.9rem;
+  }
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+  .hero-image img {
+    max-width: 200px;
+  }
+  .hero {
+    min-height: 60vh;
   }
   .contact-vertical {
     display: none;
@@ -128,7 +132,9 @@
     min-height: 50vh;
     padding-top: 2rem;
   }
-  .hero-text{ text-align: center; }
+  .hero-text {
+    text-align: center;
+  }
   .hero-text h2 {
     font-size: 0.8rem;
   }

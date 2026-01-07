@@ -15,29 +15,32 @@ export class ProjectsComponent {
     {
       id: 'project_1',
       title: 'Join',
-      description: 'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
+      description:
+        'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
       tech: ['Angular', 'TypeScript', 'HTML', 'CSS', 'Firebase'],
       image: '/images/project_1.png',
-      github: 'https://github.com',
-      liveTest: 'https://example.com'
+      github: 'https://github.com/MaikeFriz/Join.git',
+      liveTest: 'https://example.com',
     },
     {
       id: 'project_2',
-      title: 'Sharkie',
-      description: 'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
-      tech: ['Angular', 'TypeScript', 'HTML', 'CSS', 'Firebase'],
+      title: 'Zeitplaner',
+      description:
+        'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
+      tech: ['React', 'JavaScript', 'HTML', 'CSS', 'node.js', 'Express', 'MongoDB'],
       image: '/images/project_2.png',
       github: 'https://github.com',
-      liveTest: 'https://example.com'
+      liveTest: 'https://example.com',
     },
     {
       id: 'project_3',
       title: 'Pollo Loco',
-      description: 'Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco also to defeat against the crazy hen.',
+      description:
+        'Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco also to defeat against the crazy hen.',
       tech: ['JavaScript', 'HTML', 'CSS'],
       image: '/images/project_3.png',
-      github: 'https://github.com',
-      liveTest: 'https://example.com'
-    }
+      github: 'https://github.com/tchocpet/EL_POLLO_LOCO.git',
+      liveTest: 'https://example.com',
+    },
   ];
 }

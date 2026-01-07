@@ -6,12 +6,18 @@
 
       <div class="contact__meta">
         <div class="meta__item">
-          <mat-icon>email</mat-icon
-          ><span>{{ 'contact.meta.emailLabel' | translate }} thiernomam78@gmail.com</span>
+          <mat-icon>email</mat-icon>
+          <span
+            >{{ 'contact.meta.emailLabel' | translate }}
+            <a class="tel" href="mailto:thiernomam78@gmail.com">thiernomam78@gmail.com</a></span
+          >
         </div>
         <div class="meta__item">
           <mat-icon>phone</mat-icon
-          ><span>{{ 'contact.meta.phoneLabel' | translate }} <a href="tel:+491791143271">01791143271</a></span>
+          ><span
+            >{{ 'contact.meta.phoneLabel' | translate }}
+            <a class="tel" href="tel: +491791143271">01791143271</a></span
+          >
         </div>
       </div>
       <!-- <svg class="arrow arrow-up" src="/icons/arrow_up.svg" alt="arrow"></svg> -->
@@ -148,13 +154,17 @@
     </div>
     <div class="contact__meta_mobile">
       <div class="meta__item">
-        <mat-icon>email</mat-icon><br /><span
-          >{{ 'contact.meta.emailLabel' | translate }} thiernomam78@gmail.com</span
+        <mat-icon>email</mat-icon>
+        <span
+          >{{ 'contact.meta.emailLabel' | translate }}
+          <a class="tel" href="mailto:thiernomam78@gmail.com">thiernomam78@gmail.com</a></span
         >
       </div>
       <div class="meta__item">
         <mat-icon>phone</mat-icon><br /><span
-          >{{ 'contact.meta.phoneLabel' | translate }} <a href="tel:+491791143271">01791143271</a></span
+          >{{ 'contact.meta.phoneLabel' | translate }}
+
+          <a class="tel" href="tel:  +491791143271">01791143271</a></span
         >
       </div>
     </div>

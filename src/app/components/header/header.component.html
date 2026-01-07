@@ -1,6 +1,6 @@
 <mat-toolbar #appToolbar color="primary" class="app-toolbar">
   <div class="toolbar-container">
-    <a class="logo" (click)="scrollToSection('hero')">&lt;MS&gt;</a>
+    <a class="logo" (click)="scrollToSection('hero')">&lt;TMOD&gt;</a>
 
     <nav class="nav nav--desktop">
       <a mat-button (click)="scrollToSection('why-me')">{{ 'nav.whyMe' | translate }}</a>
@@ -34,7 +34,14 @@
     </div>
 
     <!-- Hamburger menu button (mobile only) -->
-    <button class="hamburger" (click)="toggleMobileMenu()" aria-label="Toggle menu" [class.active]="mobileMenuOpen()" [attr.aria-expanded]="mobileMenuOpen()" aria-controls="mobileMenu">
+    <button
+      class="hamburger"
+      (click)="toggleMobileMenu()"
+      aria-label="Toggle menu"
+      [class.active]="mobileMenuOpen()"
+      [attr.aria-expanded]="mobileMenuOpen()"
+      aria-controls="mobileMenu"
+    >
       <span></span>
       <span></span>
       <span></span>
@@ -44,14 +51,29 @@
   <!-- Mobile menu drawer -->
   <nav id="mobileMenu" class="mobile-menu" [class.open]="mobileMenuOpen()">
     <a class="mobile-nav-item" (click)="scrollToSection('why-me')">{{ 'nav.whyMe' | translate }}</a>
-    <a class="mobile-nav-item" (click)="scrollToSection('skills')">{{ 'nav.skills' | translate }}</a>
-    <a class="mobile-nav-item" (click)="scrollToSection('projects')">{{ 'nav.projects' | translate }}</a>
-    <a class="mobile-nav-item" (click)="scrollToSection('contact')">{{ 'nav.contact' | translate }}</a>
+    <a class="mobile-nav-item" (click)="scrollToSection('skills')">{{
+      'nav.skills' | translate
+    }}</a>
+    <a class="mobile-nav-item" (click)="scrollToSection('projects')">{{
+      'nav.projects' | translate
+    }}</a>
+    <a class="mobile-nav-item" (click)="scrollToSection('contact')">{{
+      'nav.contact' | translate
+    }}</a>
     <div class="mobile-lang-toggle">
-      <button [class.active]="translationService.currentLanguage() === 'EN'" (click)="setLanguage('EN')">EN</button>
+      <button
+        [class.active]="translationService.currentLanguage() === 'EN'"
+        (click)="setLanguage('EN')"
+      >
+        EN
+      </button>
       <span>|</span>
-      <button [class.active]="translationService.currentLanguage() === 'DE'" (click)="setLanguage('DE')">DE</button>
+      <button
+        [class.active]="translationService.currentLanguage() === 'DE'"
+        (click)="setLanguage('DE')"
+      >
+        DE
+      </button>
     </div>
   </nav>
 </mat-toolbar>
-

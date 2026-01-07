@@ -7,7 +7,7 @@
   },
   "hero": {
     "title": "FRONTEND ENTWICKLER",
-    "name": "Marcus Schmidt"
+    "name": "Thierno Diallo "
   },
   "about": {
     "heading": "Über mich",
@@ -25,14 +25,13 @@
     "projectB": {
       "title": "Projekt B",
       "description": "Kurzbeschreibung"
-    }
-    ,
+    },
     "project_1": {
       "title": "Join",
       "description": "Aufgabenmanager, inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag & Drop, weisen Sie Benutzer und Kategorien zu."
     },
     "project_2": {
-      "title": "Sharkie",
+      "title": "Zeitplaner",
       "description": "Aufgabenmanager, inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag & Drop, weisen Sie Benutzer und Kategorien zu."
     },
     "project_3": {
@@ -59,11 +58,9 @@
       "nameRequired": "Ihr Name ist erforderlich",
       "emailRequired": "Ihre E-Mail ist erforderlich",
       "messageRequired": "Ihre Nachricht ist erforderlich"
-    }
-    ,
+    },
     "success": "Nachricht gesendet — danke!",
-    "failure": "Senden der Nachricht fehlgeschlagen. Bitte versuchen Sie es später erneut."
-    ,
+    "failure": "Senden der Nachricht fehlgeschlagen. Bitte versuchen Sie es später erneut.",
     "description": "Ermutigen Sie Personen, Sie zu kontaktieren, und beschreiben Sie, für welche Rolle Sie sich interessieren. Bekunden Sie Ihr Interesse, zu einem neuen Projekt beizutragen.",
     "meta": {
       "emailLabel": "E-Mail:",
@@ -74,27 +71,25 @@
     "subtitle": "frontend developer",
     "legal": "Rechtlicher Hinweis",
     "privacy": "Datenschutzerklärung",
-    "copyright": "© 2025 Marcus Schmidt. Alle Rechte vorbehalten."
-  }
-  ,
+    "copyright": "© 2025 Thierno Diallo. Alle Rechte vorbehalten."
+  },
   "hero": {
     "contact": "Kontakt"
-  }
-  ,
+  },
   "testimonials": {
     "heading": "Benötigen Sie einen Teamplayer? Das sagen meine Kollegen über mich",
     "t1": {
-      "name": "Noah Mueller",
-      "project": "Projekt Sharkie",
-      "quote": "Marcus musste Inhalte in Zusammenarbeit mit den Teammitgliedern entwickeln, formatieren und liefern. Er ist eine zuverlässige und freundliche Person."
+      "name": "Bhuwan",
+      "project": "Projekt Zeitplaner",
+      "quote": "Thierno musste Inhalte in Zusammenarbeit mit den Teammitgliedern entwickeln, formatieren und liefern. Er ist eine zuverlässige und freundliche Person."
     },
     "t2": {
-      "name": "Evelyn Marx",
+      "name": "Djene Camara",
       "project": "Projekt Pollo Loco",
       "quote": "Er ist ein vertrauenswürdiger Teamplayer und kommt mit dem Stress von Deadlines zurecht. Strukturiertes Arbeiten und klarer Code."
     },
     "t3": {
-      "name": "James Rugman",
+      "name": "Marcel Störensen",
       "project": "Projekt Join",
       "quote": "Er ist eine zuverlässige und freundliche Person. Arbeitet strukturiert und schreibt klaren Code. Ich empfehle ihn als Kollegen."
     }

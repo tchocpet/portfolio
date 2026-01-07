@@ -20,8 +20,10 @@ export class SkillsComponent {
     { name: 'REST-API', icon: '/icons/api.svg' },
     { name: 'Firebase', icon: '/icons/firebase.svg' },
     { name: 'Git', icon: '/icons/git.svg' },
-    { name: 'Scrum', icon: '/icons/scrum.svg' },
+    { name: 'Scrum Master', icon: '/icons/scrum.svg' },
     { name: 'Material design', icon: '/icons/material_design.svg' },
     { name: 'Challenge me', icon: '/icons/challenge.svg' },
+    { name: 'ITL4 Fundation', icon: '/icons/ITL4.svg' },
+    { name: 'React', icon: '/icons/react.svg' },
   ];
 }

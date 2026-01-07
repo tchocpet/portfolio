@@ -37,6 +37,7 @@
 }
 
 .iam-title {
+  line-height: 3.5rem;
   font-size: 3.2rem;
   color: #e15544;
   font-weight: 700;
@@ -205,15 +206,15 @@
   color: #e15544;
 }
 
-.arrow-down-mb{
+.arrow-down-mb {
   display: none;
 }
 
-.arrow-down-mb-reflect-container{
+.arrow-down-mb-reflect-container {
   display: none;
 }
 
-.about-right .lead{
+.about-right .lead {
   text-align: right;
   justify-self: right;
 }
@@ -251,7 +252,7 @@
     grid-template-columns: 1fr;
     gap: 0.75rem;
   }
-  .iam-section{
+  .iam-section {
     display: flex;
     flex-direction: column;
   }
@@ -272,43 +273,43 @@
     padding: 0.6rem 1.2rem;
     font-size: 0.9rem;
   }
-  .about-right .red-title{
+  .about-right .red-title {
     text-align: center;
     justify-self: center;
   }
-  .about-right .lead{
+  .about-right .lead {
     text-align: center;
     justify-self: center;
   }
-  .about-left{
+  .about-left {
     display: none;
   }
-  .arrow-down-mb{
+  .arrow-down-mb {
     display: block;
   }
-  .arrow-down{
+  .arrow-down {
     display: none;
   }
-  .arrow-up{
+  .arrow-up {
     display: none;
   }
-  .arrow-twist{
+  .arrow-twist {
     display: none;
   }
-  .br-line{
+  .br-line {
     display: none;
   }
-  .iam-item{
+  .iam-item {
     margin-left: 0rem;
   }
   .showcase-item.top-left {
     justify-self: center;
     align-items: center;
   }
-  .showcase-item.bottom-center{
+  .showcase-item.bottom-center {
     display: block;
   }
-  .iam-item.located{
+  .iam-item.located {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -317,21 +318,21 @@
   .showcase-item.top-right {
     display: block;
   }
-  .iam-item{
+  .iam-item {
     justify-content: center;
   }
-  .arrow-down-mb-reflect{
+  .arrow-down-mb-reflect {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     height: 50px;
     width: 23px;
   }
-  .arrow-down-mb-reflect-container{
+  .arrow-down-mb-reflect-container {
     display: flex;
     align-items: center;
     justify-content: right;
   }
-  .talk-btn-container{
+  .talk-btn-container {
     text-align: center;
   }
 }
@@ -341,7 +342,7 @@
     grid-template-columns: 1fr;
     gap: 0.75rem;
   }
-  .iam-section{
+  .iam-section {
     display: flex;
     flex-direction: column;
   }
@@ -362,43 +363,43 @@
     padding: 0.6rem 1.2rem;
     font-size: 0.9rem;
   }
-  .about-right .red-title{
+  .about-right .red-title {
     text-align: center;
     justify-self: center;
   }
-  .about-right .lead{
+  .about-right .lead {
     text-align: center;
     justify-self: center;
   }
-  .about-left{
+  .about-left {
     display: none;
   }
-  .arrow-down-mb{
+  .arrow-down-mb {
     display: block;
   }
-  .arrow-down{
+  .arrow-down {
     display: none;
   }
-  .arrow-up{
+  .arrow-up {
     display: none;
   }
-  .arrow-twist{
+  .arrow-twist {
     display: none;
   }
-  .br-line{
+  .br-line {
     display: none;
   }
-  .iam-item{
+  .iam-item {
     margin-left: 0rem;
   }
   .showcase-item.top-left {
     justify-self: center;
     align-items: center;
   }
-  .showcase-item.bottom-center{
+  .showcase-item.bottom-center {
     display: block;
   }
-  .iam-item.located{
+  .iam-item.located {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -407,21 +408,21 @@
   .showcase-item.top-right {
     display: block;
   }
-  .iam-item{
+  .iam-item {
     justify-content: center;
   }
-  .arrow-down-mb-reflect{
+  .arrow-down-mb-reflect {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     height: 50px;
     width: 23px;
   }
-  .arrow-down-mb-reflect-container{
+  .arrow-down-mb-reflect-container {
     display: flex;
     align-items: center;
     justify-content: right;
   }
-  .talk-btn-container{
+  .talk-btn-container {
     text-align: center;
   }
 }

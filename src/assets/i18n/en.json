@@ -7,7 +7,7 @@
   },
   "hero": {
     "title": "FRONTEND DEVELOPER",
-    "name": "Marcus Schmidt"
+    "name": "Thierno Diallo"
   },
   "about": {
     "heading": "Why me",
@@ -25,14 +25,13 @@
     "projectB": {
       "title": "Project B",
       "description": "Short description"
-    }
-    ,
+    },
     "project_1": {
       "title": "Join",
       "description": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories."
     },
     "project_2": {
-      "title": "Sharkie",
+      "title": "Zeitplaner",
       "description": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories."
     },
     "project_3": {
@@ -59,11 +58,9 @@
       "nameRequired": "Your name is required",
       "emailRequired": "Your email is required",
       "messageRequired": "Your message is required"
-    }
-    ,
+    },
     "success": "Message sent — thank you!",
-    "failure": "Failed to send message. Please try again later."
-    ,
+    "failure": "Failed to send message. Please try again later.",
     "description": "Encourage people to contact you and describe what role you are interested in. Express interest in contributing to a new project.",
     "meta": {
       "emailLabel": "E-mail:",
@@ -74,22 +71,20 @@
     "subtitle": "frontend developer",
     "legal": "Legal notice",
     "privacy": "Privacy policy",
-    "copyright": "© 2025 Marcus Schmidt. All rights reserved."
-  }
-  ,
+    "copyright": "© 2025 Thierno Diallo. All rights reserved."
+  },
   "hero": {
     "contact": "Contact me"
-  }
-  ,
+  },
   "testimonials": {
     "heading": "Need a teamplayer? Here is what my colleagues said about me",
     "t1": {
-      "name": "Noah Mueller",
-      "project": "Project Sharkie",
-      "quote": "Marcus had to develop, format and deliver content in collaboration with the team members. He is a reliable and friendly person."
+      "name": "Bhuwan ",
+      "project": "Project Zeitplaner",
+      "quote": "Thierno had to develop, format and deliver content in collaboration with the team members. He is a reliable and friendly person."
     },
     "t2": {
-      "name": "Evelyn Marx",
+      "name": "Idrissa Bah",
       "project": "Project Pollo Loco",
       "quote": "He is a trustworthy teamplayer and can cope with the stress of deadlines. Structured work and clear code."
     },
