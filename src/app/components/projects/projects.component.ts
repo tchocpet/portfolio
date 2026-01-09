@@ -20,7 +20,7 @@ export class ProjectsComponent {
       tech: ['Angular', 'TypeScript', 'HTML', 'CSS', 'Firebase'],
       image: '/images/project_1.png',
       github: 'https://github.com/MaikeFriz/Join.git',
-      liveTest: 'joind.netlify.app',
+      liveTest: 'https://joind.netlify.app/',
     },
     {
       id: 'project_2',
@@ -30,7 +30,7 @@ export class ProjectsComponent {
       tech: ['React', 'JavaScript', 'HTML', 'CSS', 'node.js', 'Express', 'MongoDB'],
       image: '/images/project_2.png',
       github: 'https://github.com',
-      liveTest: 'sadakka.netlify.app',
+      liveTest: 'https://sadakka.netlify.app/login',
     },
     {
       id: 'project_3',
