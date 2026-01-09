@@ -17,7 +17,7 @@ export class ProjectsComponent {
       title: 'Join',
       description:
         'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
-      tech: ['Angular', 'TypeScript', 'HTML', 'CSS', 'Firebase'],
+      tech: ['TypeScript', 'HTML', 'CSS', 'Firebase'],
       image: '/images/project_1.png',
       github: 'https://github.com/MaikeFriz/Join.git',
       liveTest: 'https://joind.netlify.app/',
